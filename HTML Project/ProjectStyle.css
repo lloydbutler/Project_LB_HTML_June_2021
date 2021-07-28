@@ -1,0 +1,33 @@
+table {
+    border-collapse: collapse;
+    
+}
+td{
+    border: 5px solid rgb(219, 206, 25);
+    background-color: slategray;
+    
+}
+p {
+    border: 8px solid rgb(84, 236, 14);
+    
+}
+label {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 110px;;
+    text-align: right;
+
+}
+input {
+    display: inline-block;
+    background-color: aliceblue;
+    
+    
+    
+}
+input:hover{
+    background-color: green;
+}

@@ -1,0 +1,33 @@
+<html>
+    
+
+    <script type="text/javascript" src="Javaproject.js"></script>
+    <link rel="stylesheet" href="ProjectStyle.css" />
+    <head></head>
+    
+    
+    <input id="recadd" type="Button" value="Add Record" onclick="addRecord()">
+    <input type="Button" value="Show Records" onclick="showRecords()">
+    <br>
+    <input type="Button" value="Filter records" onclick="filterrecords()">
+    <select id="dept">
+        <option value="IT">IT </option>
+        <option value="HR">Human Resource </option>
+        <option value="Sales">Sales </option>
+        
+    </select>
+
+    <p id="add" style="visibility: hidden;">
+        <label for="inninumber">Number:</label><input type="text" id="inninumber"><br />
+        <label for="infullname">Full Name:</label> <input type="text" id="infullname"><br />
+        <label for="inphone">Phone:</label><input type="text" id="inphone"><br />
+        <label for="inaddress">Address:</label><input type="text" id="inaddress"><br />
+        <label for="indepartment">Department:</label><select id="indepartment">
+            <option value="HR"> HR Department</option>
+            <option value="IT"> IT Department</option>
+            <option value="Sales"> Sales Department</option>
+            </select><br />
+        </p>
+
+
+</html>
